@@ -5,7 +5,7 @@ import React, { useState } from "react";
 const INITIAL_COSTS = [
   {
     id: "c1",
-    date: new Date(2021, 2, 12),
+    date: new Date(2022, 2, 12),
     description: "Bridge",
     amount: 999.99,
   },
