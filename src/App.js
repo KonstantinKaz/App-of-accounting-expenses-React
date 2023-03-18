@@ -38,7 +38,6 @@ function App() {
 
   return (
     <div>
-      <h1>Hello React</h1>
       <NewCost onAddCost={addCostHandler} />
       <Costs costs={costs} />
     </div>
