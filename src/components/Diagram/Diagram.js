@@ -8,12 +8,12 @@ function Diagram(props) {
 
   return (
     <div className="diagram">
-      {props.dataSets.map((props) => (
+      {props.dataSets.map((dataSet) => (
         <DiagramBar
-          key={props.label}
-          value={props.value}
+          key={dataSet.label}
+          value={dataSet.value}
           maxValue={maxMonthCost}
-          label={props.label}
+          label={dataSet.label}
         />
       ))}
     </div>
